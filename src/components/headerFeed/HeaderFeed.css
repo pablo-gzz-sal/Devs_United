@@ -1,0 +1,36 @@
+.headerFeed {
+    height: 52px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .usernamePP {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 2px #FFEA5C solid;
+  }
+  
+  .titleHeader {
+    width: 159px;
+    height: 15px;
+  }
+  
+  .logoSmall {
+    width: 45px;
+    height: 27px;
+  }
+
+   /****************MOBILE*****************/
+
+@media screen and (max-width: 720px) {
+
+  .headerFeed {
+    height: 52px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+}

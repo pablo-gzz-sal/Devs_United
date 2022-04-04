@@ -1,0 +1,96 @@
+.tweet-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .boxAndButton {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tweetBox {
+    width: 550px;
+    height: 113px;
+    background-color: #2f112d;
+    color: white;
+    margin-top: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.333333px;
+    font-family: "Fira Code";
+  }
+  
+  .tweetBox::placeholder{
+    color: #ADAAA9;
+    padding: 10px;
+  }
+  
+  .userProfileID {
+     
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin: 20px; 
+  }
+  
+  .btn-tweet{
+    cursor: pointer;
+    background-color: #2f112d;
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+    left: 83%;
+    margin-top: 20px;
+  }
+  
+  /****************MOBILE*****************/
+
+@media screen and (max-width: 720px) {
+  
+  .tweetBox {
+    width: 300px;
+    height: 113px;
+    background-color: #2f112d;
+    color: white;
+    margin-top: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.333333px;
+    font-family: "Fira Code";
+  }
+  
+  .tweetBox::placeholder{
+    color: #ADAAA9;
+    padding: 10px;
+  }
+  
+  .userProfileID {
+     
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px; 
+  position: absolute;
+  top: 4em;
+  left: .5em;
+  }
+  
+  .btn-tweet {
+    cursor: pointer;
+    background-color: #2f112d;
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+    left: 60%;
+    margin-top: 20px;
+  }
+
+}

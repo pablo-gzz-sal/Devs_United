@@ -1,0 +1,179 @@
+.login {
+    position: relative;
+  }
+  
+  .logoSingIn {
+    position: absolute;
+    left: 0%;
+    right: 50%;
+    top: 0%;
+    bottom: 0%;
+  
+  }
+  
+  .logo {
+    position: absolute;
+    top: 25em;
+  }
+  
+  .infoSection {
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  
+  .title,
+  .text {
+    color: white;
+  }
+  
+  .title {
+    position: absolute;
+  
+    height: 100px;
+    width: 433px;
+    left: 15%;
+    top: 7em;
+    border-radius: nullpx;
+  
+    font-family: "Silkscreen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.333333px;
+  
+    color: #ffffff;
+  }
+  
+  .text {
+    margin-top: 8%;
+    text-align: justify;
+    position: absolute;
+    height: 73px;
+    width: 433px;
+    left: 6em;
+    top: 20em;
+    border-radius: nullpx;
+  
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.333333px;
+  
+    color: #ffffff;
+  }
+  
+  .googleAndButton {
+    display: inline-block;
+    position: relative;
+    top: 45em;
+    right: 12%
+  }
+  
+  .buttonLogin {
+    height: 58px;
+    width: 425px;
+    left: 143px;
+    top: 607px;
+    border-radius: 0px;
+    background: #4285f4;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .googleBack {
+    background-color: white;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .google {
+    width: 30px;
+    height: 30px;
+    margin-top: 13.5px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -90%);
+  }
+  
+  .beta {
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+    position: relative;
+    padding-right: 300px;
+    margin-top: 100px;
+    top: 28em;
+  }
+
+  /****************MOBILE******************/
+
+  @media screen and (max-width: 720px) {
+  
+    .login {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo {
+      width: 300px;
+      top: 1em;
+    }
+
+    .logoSingIn {
+      width: 400px;
+      height: 700px;
+    }
+
+    #logoLogin {
+      height: 700px;
+    }
+
+    .title {
+      position: absolute;
+      left: -90px;
+      top: 10em;
+      text-align: justify;
+    }
+    
+    .text {
+      left: -90px;
+      top: 29em;
+    }
+    
+    .googleAndButton {
+      display: inline-block;
+      position: relative;
+      top: 62em;
+      left: -60px
+    }
+
+    .beta {
+      position: relative;
+      margin-top: 100px;
+      top: 34em;
+      left: -90px
+    }
+
+  }
+  
